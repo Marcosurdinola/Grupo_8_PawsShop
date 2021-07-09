@@ -6,7 +6,7 @@
 
 - katerin Viluyo : 32 años. San Miguel, Buenos Aires.  Desarrollador Web Jr (En proceso)
 
--
+- Araceli Chaves : 39 Años. San Miguel, Buenos Aires. Empleada en laboratorio fotografico. Desarrollador Web Jr (en proceso)
 
 -
 
