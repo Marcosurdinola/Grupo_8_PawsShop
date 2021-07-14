@@ -8,7 +8,7 @@
 
 - Araceli Chaves : 39 Años. San Miguel, Buenos Aires. Empleada en laboratorio fotografico. Desarrollador Web Jr (en proceso)
 
-- Cinthia Gonzales : 37 Años. Lanus, Buenos Aires. Ama de casa. Desarrolladora Web Jr (En proceso)
+- Cinthia gonzalez : 37 Años. Lanus, Buenos Aires. Ama de casa. Desarrolladora Web Jr (En proceso)
 
 ## Referentes del Mercado:
 -
