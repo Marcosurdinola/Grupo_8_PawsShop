@@ -13,7 +13,7 @@
 - Cinthia gonzalez : 37 Años. Lanus, Buenos Aires. Ama de casa. Desarrolladora Web Jr (En proceso)
 
 ## Referentes del Mercado:
--[Puppis] (puppis.com.ar) > De esta pagina tomamos referencia la estetica de como esta hecho el Header y el Footer(Home). (La página se actualizó y ya no se puede ver).
+- [Puppis](http://puppis.com.ar) > De esta pagina tomamos referencia la estetica de como esta hecho el Header y el Footer(Home). (La página se actualizó y ya no se puede ver).
 -
 -
 -
