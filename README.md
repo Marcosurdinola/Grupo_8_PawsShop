@@ -1,5 +1,7 @@
 # Proyecto Integrador "Paw's Shop" C10.
 
+
+
 ## Integrantes:
 
 - Marcos Urdinola :  20  Años. Escobar, Buenos Aires.  Desarrollador Web Jr (En proceso)
@@ -11,7 +13,7 @@
 - Cinthia gonzalez : 37 Años. Lanus, Buenos Aires. Ama de casa. Desarrolladora Web Jr (En proceso)
 
 ## Referentes del Mercado:
--
+-[Puppis] (puppis.com.ar) > De esta pagina tomamos referencia la estetica de como esta hecho el Header y el Footer(Home). (La página se actualizó y ya no se puede ver).
 -
 -
 -
@@ -19,6 +21,6 @@
 
 
 ## Colores:
-- BAE5E5 (Celeste pastel)
-- FFFAFA (Blanco)
-- EC8F6A (Naranja pastel)
+- BAE5E5 (Celeste pastel)-(Header)
+- FFFAFA (Blanco)-(Body)
+- EC8F6A (Naranja pastel)-(Footer)
