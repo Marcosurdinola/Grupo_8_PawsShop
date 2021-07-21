@@ -14,7 +14,6 @@
 
 ## Referentes del Mercado:
 - [Puppis](http://puppis.com.ar) > De esta pagina tomamos referencia la estetica de como esta hecho el Header y el Footer(Home). (La página se actualizó y ya no se puede ver).
-- 
 -https://mascotasshop.com.ar/ > yo tome de esta pagina el estilo del registro,solo que agregando mas datos y diseño del color y logo elegido en grupo.(cinthia)
 -
 -
