@@ -16,7 +16,7 @@
 - [Puppis](http://puppis.com.ar) > De esta pagina tomamos referencia la estetica de como esta hecho el Header y el Footer(Home). (La página se actualizó y ya no se puede ver).
 - [MascotasShop](https://mascotasshop.com.ar/) >yo tome de esta pagina el estilo del registro,solo que agregando mas datos y diseño del color y logo elegido en grupo.(cinthia).
 - [Playground](https://playground.digitalhouse.com/login) > 
-- []() > 
+- [amar](https://amarmascotas.com/) >elegi la pagina por la presentacion del carrito,muy clara y sin vueltas ,ni subventanas que compliquen al cliente a la hora de hacer un pedido.(katerin). 
 
 ## Colores:
 - BAE5E5 (Celeste pastel)-(Header)
