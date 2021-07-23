@@ -2,6 +2,9 @@
 
 
 ## Descripción del Proyecto:
+ ### Bienvenidos a Paws' Shop. Somos una tienda que brinda productos/servicios para Mascotas. Te damos una experiencia diferente de compra, ofreciendo productos y servicios de alta calidad que cumplen con las necesidades de las mascotas y la satisfacción de sus dueños
+### En Paw's Shop reconocemos a las mascotas como un miembro más de la familia, a las que debemos cuidar, proteger, y brindar el mejor cuidado para que tengan una excelente calidad de vida. Para ello ofrecemos la más amplia variedad en productos alimenticios, accesorios, farmacia, servicios experimentados (veterinaria, peluquería), mascotas para adopción , y mucho más!
+## ¡Te Esperamos! 
 
 
 
