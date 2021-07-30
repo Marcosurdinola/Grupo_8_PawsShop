@@ -1,4 +1,4 @@
-# Proyecto Integrador "Paw's Shop" C10.
+# Proyecto Integrador "Paw's Shop".
 
 
 ## Descripción del Proyecto:
