@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorCeleste: #BAE5E5;
+    --colorBlanco: #FFFAFA;
+    --colorNaranja: #EC8F6A;
+}
+
