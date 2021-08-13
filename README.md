@@ -5,7 +5,7 @@
  ## Bievenidos a Paw's Shop, la tienda de tu mascota.
  *Este proyecto se dedicará a la venta de productos/servicios para mascotas. Podrán encontrar un grán catálogo de articulos y/o servicios para sus mascotas.*
  
- *Esta tienda cuenta con varios descuentos para aquellos clientes que solicitan nuestros productos/servicios a menudo, ya sea descuentos en porsentaje o ofertas como "2x1".*
+ *Esta tienda cuenta con varios descuentos para aquellos clientes que solicitan nuestros productos/servicios a menudo, ya sea descuentos en porcentaje u ofertas como "2x1".*
  
  *Este proyecto salio en base a los gustos de cada participante, el equipo tuvo una reunión y cada participante dio su devolución. En principio se plantearon 3 temáticas, pero la que más nos gusto y ganó por votación fue la "Tienda de mascotas. Cada uno de los participantes nos gusta y tenemos mascotas, concideramos a las mascotas un miembro más en cada familia, y los tratamos con mucho amor y respeto.*
 
