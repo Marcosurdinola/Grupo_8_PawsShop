@@ -32,4 +32,4 @@
 - EC8F6A (Naranja pastel)-(Footer)
 
 # Logo :
-(![Paws4](https://user-images.githubusercontent.com/85351158/127195010-1d9eb594-629b-4db5-bdec-13350e46dcc6.png)
+![Paws4](https://user-images.githubusercontent.com/85351158/127195010-1d9eb594-629b-4db5-bdec-13350e46dcc6.png)
