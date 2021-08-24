@@ -9,4 +9,6 @@
     --colorBlanco: #FFFAFA;
     --colorNaranja: #EC8F6A;
 }
-
+*.box-check label{
+    margin-left:5px
+}
