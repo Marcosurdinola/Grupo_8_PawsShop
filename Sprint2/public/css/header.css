@@ -17,8 +17,16 @@ header div.contenido{
     flex-wrap: wrap;
     width: 75%;
 }
+header div.burger{
+    width: 30%;
+}
 
-header a.btn-burger{
+header .btn-burger{
+    margin: 0 auto;
+    width: 50%;
+}
+
+header .btn-burger a{
     font-size: 50px;
     color: black;
     margin: 0 auto;
@@ -163,11 +171,15 @@ header div.logo img{
 header div.p-header{
     height: 45px;
 }
+header div.burger{
+    width: 13%;
+}
+
 header div.f-animales{
    display: block;
-   width: 120px;
+   width: 23%;
    height: 65px;
-   margin: 0 20px;
+   margin: 0 15px;
 }
 header div.f-animales img{
     width: 100%;
@@ -195,7 +207,7 @@ header div.f-perritos img{
     height: 100%;
 }
 header div.busqueda{
-    width: 300px;
+    width: 50%;
     margin: 0 20px 3px 20px;
 }
 header div.busqueda form input{
@@ -213,7 +225,7 @@ header div.Promo{
 }
 
 @media (min-width: 1024px) {
-header a.btn-burger{
+header div.burger{
     display: none;
 }
 

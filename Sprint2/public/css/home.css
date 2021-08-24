@@ -101,7 +101,7 @@
 
 .home main section {
     width: 100%;
-    margin: 10px 0;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
