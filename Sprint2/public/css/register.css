@@ -1,0 +1,62 @@
+.register main.home{
+    width:90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px solid 2px;
+ }
+.register .h3{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.register .formularios{
+    width: 100%;
+    border: var(--colorCeleste) solid 3px;
+    border-radius: 10px solid;
+    padding: 2px; 
+    justify-content:space-between ;
+    box-sizing: border-box;
+}
+
+.register .contenedor{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 20px;
+    border: var(--colorCeleste) solid 5px;
+}
+
+.register .logo {
+    width: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.register .formularios button{
+    background-color:var(--colorNaranja);
+    width: 40px;
+    padding: 10px;
+    border-radius:50px;
+}
+
+.register .box-form{
+    background-color: var(--colorNaranja);
+    text-align: center;
+    margin: 10px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 40px;
+    
+}
+
+
+@media(min-width:786px){
+
+}
+
+
+@media (min-widt:1024){
+    
+}

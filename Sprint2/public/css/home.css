@@ -1,0 +1,331 @@
+
+
+.home main .contenido{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    background-color: var(--colorBlanco);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.home main .banner{
+    width: 100%;
+    display: none;
+}
+
+
+
+.home main .metodos-envio{
+    width: 100%;
+    border-top: 2px solid var(--colorCeleste);
+    border-bottom: 2px solid var(--colorCeleste);
+    margin-top: 10px;
+}
+
+.home main div.metodos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.home main div.metodos i{
+    font-size: 60px;
+    margin: 10px 0;
+    color: var(--colorNaranja);
+}
+
+.home main .envio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home main .envio .camion{
+ width: 50%;
+ display: flex;
+ flex-wrap: wrap;
+}
+.home main .envio .consulta{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home main .envio div.icon-camion{
+    width: 30%;
+}
+.home main .envio div.icon-consulta{
+    width: 30%;
+}
+.home main .envio div{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 5px;
+}
+
+
+.home main .envio div.icon-camion i{
+    font-size: 33px;
+    color: var(--colorNaranja);
+}
+.home main .envio div.icon-consulta i{
+    font-size: 40px;
+    color: var(--colorNaranja);
+}
+
+.home main .envio h3{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+
+/* section */
+
+
+
+
+.home main div.img{
+    width: 100%;
+    height: 100%;
+}
+.home main .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.home main section {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.home main section article{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.home main section article:hover{
+    cursor: pointer;
+    transition: all 200ms;
+    transform: scale(1.1);
+}
+
+.home main .img-descripcion{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    
+}
+
+.home main .img-descripcion .descripcion{
+    width: 100%;
+    position: absolute;
+    background-color: var(--colorCeleste);
+    opacity: 0.7;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.home main .img-descripcion .descripcion p{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+}
+
+.home main .precio-btn{
+    margin: 0 auto;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home main .precio-btn div.precio{
+    margin: 0 auto;
+    margin-bottom: 3px;
+    width: 50%;
+    background-color: var(--colorNaranja);
+    border-radius: 20px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+
+}
+.home main .precio-btn div.precio p{
+    font-size: 18px;
+    margin: 0 auto;
+    color: white;
+}
+.home main main section .img-descripcion{
+    height: 70%;
+}
+
+.home main .precio-btn .btn-calculo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    margin: 0 auto;
+}
+.home main .precio-btn .btn-calculo .restar{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    background-color: var(--colorCeleste);
+    border-radius: 20px;
+}
+.home main .precio-btn .btn-calculo .restar p{
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.home main .precio-btn .btn-calculo div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.home main .precio-btn .btn-calculo div input{
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+.home main .precio-btn .btn-calculo .sumar{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    background-color: var(--colorCeleste);
+    border-radius: 20px;
+}
+.home main .precio-btn .btn-calculo .sumar p{
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.home main .precio-btn div.comprar{
+    margin: 0 auto;
+    margin-top: 3px;
+    width: 50%;
+    background-color: var(--colorNaranja);
+    border-radius: 20px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.home main .precio-btn div.comprar a{
+    font-size: 18px;
+    margin: 0 auto;
+    color: white;
+}
+
+.home main .contenido .metodos-pago{
+    display: none;
+}
+
+
+
+
+
+/* Tablet */
+
+@media (min-width: 768px) {
+.home main .banner{
+    display: block;
+}
+
+    .home main .metodos-envio{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home main div.metodos{
+    width: 40%;
+    border-right: 1px solid var(--colorCeleste);
+    border-left: 1px solid var(--colorCeleste);
+}
+
+.home main div.envio {
+    width: 40%;
+}
+
+.home main .contenido .metodos-pago{
+    display: block;
+    width: 20%;
+}
+.home main .contenido .metodos-pago p{
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 8px 0;
+}
+
+.home main section article{
+    width: 21%;
+    
+}
+
+.home main .img-descripcion .descripcion{
+    height: 54px;
+    top: 68%;
+}
+
+
+.home main .img-descripcion .descripcion p{
+    font-size: 12px;
+}
+
+
+}
+
+@media (min-width: 1024px){
+.home main .img-descripcion .descripcion{
+    height: 63px;
+}
+    
+.home main .img-descripcion .descripcion p{
+    font-size: 16px;
+}
+
+}
+
+
+
+@media (min-width: 1399px) {
+.home main div.metodos i{
+    font-size: 70px;
+}
+
+.home main .contenido .metodos-pago p{
+    font-size: 35px;
+}
+
+.home main .img-descripcion .descripcion{
+    top: 70%;
+    height: 80px;
+}
+
+.home main .img-descripcion .descripcion p{
+    font-size: 16px;
+}
+
+.home main .envio div.icon-camion i{
+    font-size: 50px;
+}
+
+.home main .envio h3{
+    font-size: 23px;
+}
+
+.home main .envio div.icon-consulta i{
+    font-size: 58px;
+}
+
+}
