@@ -1,0 +1,231 @@
+.d-producto main .conteiner{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.d-producto main .img{
+    width: 30%;
+    height: 107;
+    order: -1;
+    max-width: 1399px;
+}
+.d-producto main .img img{
+    width: 100%;
+}
+
+.d-producto main .info{
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+    width: 100%;
+    height: 70%;
+    margin-top: 15px;
+}
+
+.d-producto main .info h3{
+    margin-bottom: 10px;
+}
+.d-producto main .info p{
+    margin-bottom: 10px;
+}
+
+.d-producto main .data-compra{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    order: 1;
+    align-items: center;
+
+}
+
+.d-producto main .data-compra .data{
+    width: 40%;
+}
+.d-producto main .data-compra .data p{
+    text-align: center;
+    margin: 0 auto;
+    color: var(--colorBlanco);
+}
+
+.d-producto main .data-compra .comprar{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.d-producto main .data-compra .descuento{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.d-producto main .data-compra .peso{
+    width: 100%;
+}
+.d-producto main .peso .box-peso {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--colorCeleste);
+    border-radius: 10px;
+    height: 30px;
+}
+
+.d-producto main .data-compra .precio{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.d-producto main .data-compra .box{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--colorNaranja);
+    border-radius: 20px;
+}
+
+.d-producto main .comprar .restar{
+    width: 25%;
+}
+.d-producto main .comprar .cantidad{
+    width: 48%;
+    margin: 0 1px;
+}
+.d-producto main .comprar .cantidad input{
+    width: 100%;
+    text-align: center;
+    color: var(--colorNaranja);
+    border: 2px solid var(--colorCeleste);
+    border-radius: 4px;
+}
+
+.d-producto main .comprar .sumar{
+    width: 25%;
+}
+.d-producto main .comprar .añadir-carrito{
+    width: 100%;
+}
+.d-producto main .comprar .añadir-carrito .carrito{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--colorNaranja);
+    border-radius: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.d-producto main .comprar .añadir-carrito .carrito a{
+    text-align: center;
+    margin: 0 auto;
+    color: var(--colorBlanco);
+}
+
+
+.d-producto main .comprar .btn{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--colorCeleste);
+    border-radius: 5px;
+}
+.d-producto main .comprar .btn a{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+
+
+@media (min-width: 768px) {
+
+.d-producto main .comprar .restar{
+    width: 15%;
+}
+
+.d-producto main .comprar .cantidad{
+    width: 35%;
+    margin: 0 1px;
+
+}
+
+.d-producto main .comprar .sumar{
+    width: 15%;
+}
+
+.d-producto main .comprar .añadir-carrito{
+    width: 50%;
+    margin: 0 auto;
+}
+}
+
+
+@media (min-width: 1024px) {
+.d-producto main .conteiner{
+    padding-bottom: 30px;
+}
+
+
+.d-producto main .data-compra{
+    order: 2;
+    width: 25%;
+}
+
+.d-producto main .info{
+    order: 1;
+    width: 50%;
+}
+
+.d-producto main .img{
+    width: 25%;
+    height: 325px;
+    display: flex;
+    align-items: center;
+}
+
+.d-producto main .comprar .añadir-carrito .carrito{
+    width: 100%;
+    height: 35px;
+}
+
+.d-producto main .info h3{
+    font-size: 25px;
+}
+
+.d-producto main .info p{
+    font-size: 19px;
+}
+
+.d-producto main .comprar .btn{
+    height: 30px;
+}
+
+.d-producto main .data-compra .box{
+    height: 40px;
+}
+.d-producto main .peso .box-peso {
+    height: 40px;
+}
+
+
+}
+
+
+@media (min-width: 1399px) {
+
+    .d-producto main .info h3{
+        font-size: 40px;
+    }
+    
+    .d-producto main .info p{
+        font-size: 28px;
+    }
+}
+
