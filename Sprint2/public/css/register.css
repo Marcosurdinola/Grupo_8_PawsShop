@@ -4,13 +4,13 @@
     padding: 5px;
     border-radius: 10px solid 2px;
  }
-.register .h3{
+.register main .h3{
     display: flex;
     text-align: center;
     padding: 10px;
 }
 
-.register .formularios{
+.register main .formularios{
     width: 100%;
     border: var(--colorCeleste) solid 3px;
     border-radius: 10px solid;
@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-.register .contenedor{
+.register main .contenedor{
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -27,21 +27,21 @@
     border: var(--colorCeleste) solid 5px;
 }
 
-.register .logo {
+.register main .logo {
     width: 5px;
     margin: 5px;
     display: flex;
     justify-content: space-between;
 
 }
-.register .formularios button{
+.register main .formularios button{
     background-color:var(--colorNaranja);
     width: 40px;
     padding: 10px;
     border-radius:50px;
 }
 
-.register .box-form{
+.register main .box-form{
     background-color: var(--colorNaranja);
     text-align: center;
     margin: 10px;
