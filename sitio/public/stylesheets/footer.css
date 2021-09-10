@@ -1,0 +1,233 @@
+footer{
+    background-color: var(--colorNaranja);
+    width: 100%;
+    height: 100%;
+}
+
+footer .conteiner-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--colorNaranja);
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+footer .conteiner-footer div.logo-redes{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer .conteiner-footer div.data{
+    width: 35%;
+}
+
+footer .conteiner-footer div.logo{
+    width: 70%;
+    height: 80%;
+}
+
+footer .conteiner-footer div.logo img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--colorNaranja);
+    border-radius: 50%;
+    vertical-align: initial;
+}
+footer .conteiner-footer div.redes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+footer .conteiner-footer div.social{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+   
+}
+footer .conteiner-footer div.social a{
+    margin: 5px 0;
+}
+
+footer .conteiner-footer div.social i{
+    font-size: 28px;
+    color: black;
+}
+footer .conteiner-footer .data nav{
+    height: 100%;
+}
+
+
+footer .conteiner-footer div.data ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+footer .conteiner-footer div.data li{
+    display: flex;
+    align-items: center;
+    height: 25%;
+    margin-left: 15px;
+}
+footer .conteiner-footer div.data a{
+    color: var(--colorBlanco);
+    font-size: 20px;
+}
+
+
+footer .conteiner-footer div.patita{
+    width: 25%;
+    
+}
+footer .conteiner-footer div.imagen-patita{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer .conteiner-footer div.imagen-patita img{
+    width: 100%;
+    height: 80%;
+}
+footer .conteiner-footer section.data{
+    display: none;
+}
+footer .conteiner-footer section.data p{
+    margin: 0;
+}
+
+
+@media (min-width: 768px) {
+
+footer .conteiner-footer div.logo-redes{
+    width: 30%;
+}
+
+footer .conteiner-footer div.data{
+    width: 45%;
+}
+
+footer .conteiner-footer div.data a{
+    font-size: 28px;
+}
+
+footer .conteiner-footer div.social i{
+    font-size: 32px;
+}
+
+}
+
+@media (min-width: 1024px) {
+
+footer .conteiner-footer div.logo-redes{
+    width: 25%;
+}
+
+footer .conteiner-footer div.data{
+    width: 60%;
+}
+
+footer .conteiner-footer div.patita{
+    width: 15%;
+}
+
+footer .conteiner-footer div.imagen-patita{
+    padding-left: 10px;
+}
+
+footer .conteiner-footer div.data ul{
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+footer .conteiner-footer div.data li{
+    width: 25%;
+    margin: 0;
+    flex-wrap: wrap;
+    padding: 0 5px;
+    height: 100%;
+    align-items: flex-start;
+}
+footer .conteiner-footer div.data li.servicios{
+    width: 17%;
+}
+
+
+footer .conteiner-footer .data div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .conteiner-footer div.data a.titulo{
+    font-size: 23px;
+    width: 100%;
+    padding: 2px 0;
+    transition: 300ms;
+}
+footer .conteiner-footer div.data a.titulo:hover{
+    transform: scale(1.05);
+}
+
+footer .conteiner-footer section.data{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer .conteiner-footer section.data a{
+    font-size: 15px;
+}
+
+footer .conteiner-footer section.data p{
+    color: var(--colorBlanco);
+    font-size: 15px;
+}
+
+footer .conteiner-footer div.data a:hover{
+    color: var(--colorCeleste);
+    cursor: pointer;
+    
+}
+
+footer .conteiner-footer div.social a:hover{
+    transition: all 200ms;
+    transform: scale(1.1);
+}
+
+footer .conteiner-footer div.social i:hover{
+    color: var(--colorCeleste);
+    cursor: pointer;
+    
+}
+
+
+
+}
+
+@media (min-width: 1399px) {
+footer .conteiner-footer div.data a.titulo{
+    font-size: 28px;
+}
+
+
+footer .conteiner-footer section.data a{
+    font-size: 20px;
+}
+
+footer .conteiner-footer section.data p{
+    font-size: 20px;
+}
+
+
+}

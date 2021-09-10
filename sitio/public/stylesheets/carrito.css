@@ -1,0 +1,292 @@
+
+  .carrito .home h2{
+    padding: 20px 40px;
+    text-transform: uppercase;
+  }
+
+ /* seccion de itens de compra */
+ .carrito .home div.compra{  
+    justify-content: space-around;
+    display: flex;
+    width:  100%; 
+     /*  
+ para que sea consecutiva las opciones*/
+ }
+  /*  organizacion de itens*/
+  .carrito .home div.compra div.articulo {
+    display: flex;
+    width: 29%; 
+    padding: 10px 25px;
+    
+  }
+ 
+  .carrito .home div.compra div.qComproItens{
+    display: flex;
+    width: 71%;
+  }
+
+  .carrito .home div.compra div.qComproItens p{
+    display: flex;
+    width: 33%;
+    padding: 10px 25px;
+    justify-content: space-around;
+  }
+ 
+  /* width: 75%;
+  seccion de articulos que estoy compramdo */
+  .carrito .home article.articulosComprados {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .carrito .home article.articulosComprados  div.articulo {
+    width: 29%; 
+    padding: 10px 0px;
+  }
+
+  .carrito .home article.articulosComprados  div.articulo img{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .carrito .home article.articulosComprados  div.articulo h4{
+    padding: 10px 0px;
+  }
+
+  .carrito .home article.articulosComprados  div.articulo p{
+    display: none;
+  }
+
+  .carrito .home article.articulosComprados div.qCompro{
+    margin: auto ;
+    display: flex;
+    width: 71%;
+  }
+
+  .carrito .home article.articulosComprados div.qCompro p{
+    width: 33%;
+    margin: auto;
+    padding: 10px 15px;
+  }
+    /* cantidad que estoy compramdo */
+  .carrito .home article.articulosComprados div.qCompro div.cantidad{
+    display: flex;
+    width: 33%;
+    justify-content: space-around;
+  }
+
+  .carrito .home article.articulosComprados div.qCompro div.cantidad button.signoA{
+    background-color: var(--colorNaranja);
+    border-top-left-radius:  36%;
+    border-bottom-left-radius:  36%;
+    padding: 7px 6px; 
+    border:  solid 2px var(--colorNaranja);
+  }
+  .carrito .home article.articulosComprados div.qCompro div.cantidad button.signoB{
+    background-color: var(--colorNaranja);
+    border-top-right-radius:  36%;
+    border-bottom-right-radius:   36%;
+    padding: 6px 7px;
+    border:  solid 2px var(--colorNaranja);
+  }
+  .carrito .home article.articulosComprados div.qCompro div.cantidad button.cant{
+    padding: 6px;
+    border: none;
+  }
+ 
+ /* seccion botones*/
+  .carrito .home div.botones {
+    display: flex;
+    width: 100%;    
+  }
+
+  .carrito .home div.botones button{ 
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: var(--colorNaranja) ;
+    background-color: var(--colorNaranja);
+    margin: 20px;
+  }
+     /* elimina compra  */
+  .carrito .home div.botones button.vaciar{
+    margin: auto;
+  }
+    
+    /* seccion de cupon */
+
+  .carrito .home div.cupon div.box-form{ 
+    background-color: gray;
+    margin: 0px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .carrito .home div.cupon div.box-form input{ 
+    background-color: rgb(175, 173, 173);
+    margin:0px auto;
+    padding-left: 15px;
+  }
+
+  .carrito .home div.cupon div.box-form button{ 
+    background-color:var(--colorNaranja) ;
+    padding: 7px 10px;
+  }
+
+    /* seccion de confirmacion de compra */
+
+    .carrito .home section.confirmacionDeCompra { 
+       padding: 10px;
+       display: flex;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.data{  
+        width: 50%;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar{ 
+        width: 50%;
+    }
+
+    /* soy de la casa */
+    .carrito .home section.confirmacionDeCompra div.pagar p.impuestos2{ 
+        display: none;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar p.descuento2{ 
+        display: none;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar p.totalCompra2{ 
+        display: none;
+    }
+
+   /* confirmar  compra paddig mas ancho */
+   .carrito .home  button.confirmarPed{ 
+        background-color:var(--colorNaranja) ;   
+        padding: 12px;
+        width: 100%;
+    }
+
+      /*  ancho tabet */
+@media (min-width:768px) {
+  .carrito .home h2{       
+      font-size: 35px;
+  } 
+
+  .carrito .home article.articulosComprados  div.articulo p{
+     display: flex;
+    font-size: 20px;
+  }
+
+  .carrito .home article.articulosComprados  div.articulo h4{
+    font-size: 25px;
+   }   
+
+  .carrito .home div.compra{
+    font-size: 25px;
+  }
+   
+  .carrito .home article.articulosComprados div.qCompro p{
+    font-size: 28px;
+    padding:0px 75px;
+    background-color: teal;
+  }
+ 
+  .carrito .home article.articulosComprados div.qCompro div.cantidad button.signoA {
+    padding: 8px 10px;
+    font-size: 25px;
+  }
+
+  .carrito .home article.articulosComprados div.qCompro div.cantidad button.signoB {
+    padding: 9px 11px ;
+    font-size: 25px;
+  }
+
+  .carrito .home article.articulosComprados div.qCompro div.cantidad button.cant {
+    font-size: 25px;
+  }
+  .carrito .home div.cupon div.box-form input{ 
+    margin: 0 50px;
+  }
+
+  .carrito .home section.confirmacionDeCompra { 
+    font-size: 20px;
+ }
+
+ .carrito.home div.botones button {
+    font-size: 18px; 
+      padding: 7px 10px;   
+  }
+
+  .carrito .home  button.confirmarPed{ 
+    font-size: 22px;
+  }
+
+}
+   /*
+   para vista art ancho pc.  
+   box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   en  esta vista el comprador es un empleado de la empresa */
+   @media (min-width:1200px) {
+      .carrito .home article.articulosComprados  div.articulo h4{
+        font-size: 30px;
+      }  
+      
+      .carrito .home article.articulosComprados  div.articulo p{
+        display: flex;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+     }
+   
+      .carrito .home article.articulosComprados  div.articulo {
+        width: 50%; 
+        display: flex;
+      }
+   
+      .carrito .home article.articulosComprados  div.articulo img{
+        width: 220px;  
+      }
+
+      .carrito .home article.articulosComprados  div.articulo img.img{
+        width: 84%;  
+      }
+
+      .carrito .home article.articulosComprados  div.articulo h4{
+        display: none;        
+      }
+
+      .carrito .home article.articulosComprados div.qCompro{
+        width: 40%;
+      }
+      .carrito .home div.botones button{ 
+
+       padding: 15px 20px;
+      }
+      
+   /* compa si soy de la casa */
+   .carrito .home section.confirmacionDeCompra div.pagar p.impuestos2{ 
+        display: flex;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar p.impuestos1{ 
+        display: none;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar p.descuento2{ 
+        display: flex;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar p.descuento1{ 
+        display: none;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar p.totalCompra2{ 
+        display: flex;
+    }
+
+    .carrito .home section.confirmacionDeCompra div.pagar p.totalCompra1{ 
+        display: none;
+    }
+
+}
