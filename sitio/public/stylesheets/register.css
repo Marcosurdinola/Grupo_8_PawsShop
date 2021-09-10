@@ -1,0 +1,258 @@
+.register main .home{
+    width:100%;
+    margin: 5px 0 , auto;
+    padding: 5px 0 , auto;
+    border-radius: 10px;
+   
+ }
+.register main .h3{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+}
+   
+.register main .h6{
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    margin:50px;
+    box-sizing:content-box;
+    
+}
+.register main .datos{
+    border: 10%; ;
+    border-radius:80px solid 5px var(--colorCeleste);
+    display: flex;
+    flex-direction: column ;
+   
+}
+.register main .datos input{
+    border: var(--colorCeleste) solid 5px;
+    padding: 10px; ;
+    background-color:white;
+    border-color: var(--colorCeleste);
+    border-radius: 40px;
+   
+
+}
+
+.register main .formularios{ 
+    width: 100%;
+    border: var(--colorCeleste) solid 5px;
+    border-radius: 60px solid 8px;
+    padding: 5px; 
+    justify-content:space-between ;
+    box-sizing: border-box;
+
+}
+
+.register main .contenedor{
+    background-color:white;
+    width:100%;
+    display: flex;
+    margin: 2px;
+    justify-content:space-between;
+   
+}
+
+
+.register main .loguito{
+    width: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.register main .contenedor{
+    padding: 6px;
+    border-radius: 80px var(--colorCeleste);
+    border: solid 8px var(--colorCeleste);
+    
+}
+.register main .box-form{
+    background-color: var(--colorNaranja);
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    align-items: center;
+    border: solid 10px var(--colorNaranja);
+    border-radius: 60px;
+    
+}
+
+
+@media(min-width:786px){
+    .register main .home{
+        width:80%;
+        margin: 5px , auto;
+        padding: 5px 0 , auto;
+        border-radius: 90px;
+        border: 50px;
+       
+     }
+    .register main .h3{
+        width: 100%;
+        display: flex;
+        padding: 100%;
+        margin: 100%;
+        justify-content: space-between;
+    }
+       
+    .register main .h6{
+        width: 100%;
+        display: flex;
+        padding: 100px;
+        margin:50px;
+        justify-content: space-between;
+       
+        
+    }
+    .register main .datos{
+        margin: 20px;
+        padding: 20px;
+        border: 50%; 
+        border-radius:90px solid 20px var(--colorCeleste);
+       
+    }
+    .register main .datos input{
+        border: var(--colorCeleste) solid 5px;
+        padding: 10px; ;
+        background-color:white;
+        border-color: var(--colorCeleste);
+        border-radius: 40px;
+        box-sizing: content-box;
+       
+    
+    }
+    
+    .register main .formularios{ 
+        
+        width: 90%;
+        border: var(--colorCeleste) solid 5px;
+        border-radius: 80px solid 8px;
+        padding: 5px;
+       
+    }
+    
+    .register main .contenedor{
+        background-color:white;
+        width:60%;
+        display: flex;
+        margin: 5px;
+        text-align: center;
+        padding-inline-start: 20px;
+    
+    }
+    
+    
+    .register main .loguito{
+        width: 40px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+        
+    }
+    .register main .box-form{
+        background-color: var(--colorNaranja);
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        border: solid 10px var(--colorNaranja);
+        border-radius: 60px;
+        
+    }
+    
+@media(min-width:1024){
+    .register main .home{
+        width:100%;
+        margin: 10px 0 , auto;
+        padding: 5px 0 , auto;
+        border-radius: 10px;
+       
+     }
+    .register main .h3{
+        width: 100%;
+        display: flex;
+        padding: 50px;
+        margin: 50px;
+    }
+       
+    .register main .h6{
+        width: 100%;
+        display: flex;
+        padding: 100px;
+        margin:50px;
+        box-sizing:content-box;
+        
+    }
+    .register main .datos{
+        width: 100px;
+        margin: 5px;
+        border: 10%; ;
+        border-radius:80px solid 5px var(--colorCeleste);
+        display: flex;
+        flex-direction: column ;
+       
+    }
+    .register main .datos input{
+        border: var(--colorCeleste) solid 5px;
+        padding: 10px; ;
+        background-color:white;
+        border-color: var(--colorCeleste);
+        border-radius: 40px;
+       
+    
+    }
+    
+    .register main .formularios{ 
+        width: 100%;
+        border: var(--colorCeleste) solid 5px;
+        border-radius: 60px solid 8px;
+        padding: 5px; 
+        justify-content:space-between ;
+        box-sizing: border-box;
+    
+    }
+    
+    .register main .contenedor{
+        background-color:white;
+        width:100%;
+        display: flex;
+        margin: 2px;
+        justify-content:space-between;
+       
+    }
+    
+    
+    .register main .loguito{
+        width: 30px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .register main .contenedor{
+        padding: 6px;
+        border-radius: 80px var(--colorCeleste);
+        border: solid 8px var(--colorCeleste);
+        
+    }
+    .register main .box-form{
+        background-color: var(--colorNaranja);
+        text-align: center;
+        padding: 10px;
+        margin: 30px;
+        align-items: center;
+        border: solid 10px var(--colorNaranja);
+        border-radius: 60px;
+        
+    }
+    
+}
+ 
+    
+    
