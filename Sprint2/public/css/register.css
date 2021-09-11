@@ -5,6 +5,10 @@
     border-radius: 10px;
    
  }
+ 
+ .register main .patita{
+    display: none;
+}
 .register main .h3{
     width: 100%;
     display: flex;
@@ -56,7 +60,6 @@
    
 }
 
-
 .register main .loguito{
     width: 30px;
     margin: 10px;
@@ -91,6 +94,10 @@
         border: 50px;
        
      }
+     .register main .patita{
+        display: none;
+     }
+
     .register main .h3{
         width: 100%;
         display: flex;
@@ -168,11 +175,21 @@
     
 @media(min-width:1024){
     .register main .home{
-        width:100%;
-        margin: 10px 0 , auto;
-        padding: 5px 0 , auto;
+        width:20%;
+        margin: 5px ;
+        padding: 5px;
         border-radius: 10px;
+        display: block;
+        justify-content: space-between;
        
+     }
+     .register main .patita{
+         width: 20%;
+         margin: 5px;
+         padding: 5px;
+         display: block;
+         justify-content: space-between;
+
      }
     .register main .h3{
         width: 100%;
@@ -209,7 +226,7 @@
     }
     
     .register main .formularios{ 
-        width: 100%;
+        width: 10%;
         border: var(--colorCeleste) solid 5px;
         border-radius: 60px solid 8px;
         padding: 5px; 
@@ -220,14 +237,15 @@
     
     .register main .contenedor{
         background-color:white;
-        width:100%;
-        display: flex;
+        width: 10px;;
+        display:inline-block;
         margin: 2px;
         justify-content:space-between;
        
     }
-    
-    
+    .register main .contenedor .patita{
+    display: block;
+    }
     .register main .loguito{
         width: 30px;
         margin: 10px;
@@ -239,6 +257,7 @@
         padding: 6px;
         border-radius: 80px var(--colorCeleste);
         border: solid 8px var(--colorCeleste);
+        background-color: crimson;
         
     }
     .register main .box-form{
