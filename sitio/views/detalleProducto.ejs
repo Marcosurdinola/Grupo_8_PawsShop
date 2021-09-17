@@ -9,15 +9,12 @@
     <main>
         <div class="conteiner">
             <div class="img">
-                <img src="/images/productoPerros2.png" alt="">
+                <img src="/images/<%= product.image %> " alt="">
             </div>
             <div class="info">
                 <div class="descripcion">
                     <h3>Descripción</h3>
-                    <p>Purina Pro Plan elimina la “brecha inmunológica” y provee nutrición completa que ayuda a los
-                        cachorros a crecer fuertes y sanos. A su vez, también ayuda a otras cosas claves en el cuidado
-                        de la mascota, tales como reforzar el sistema inmune, fortalecer la microflora intestinal y
-                        reforzar la barrera cutánea.</p>
+                    <p><%= product.description %> </p>
                 </div>
                 <div class="beneficios">
                     <h3>Beneficios</h3>
@@ -30,17 +27,17 @@
                 <div class="data">
                     <div class="descuento">
                         <div class="box">
-                            <p>20% OFF</p>
+                            <p><%= product.discount %> % OFF</p>
                         </div>
                     </div>
                     <div class="peso">
                         <div class="box-peso">
-                            <p> 8 KG</p>
+                            <p> <%= product.features %>  KG</p>
                         </div>
                     </div>
                     <div class="precio">
                         <div class="box">
-                            <p>$ 5570,00</p>
+                            <p>$ <%= product.price %> </p>
                         </div>
                     </div>
                 </div>

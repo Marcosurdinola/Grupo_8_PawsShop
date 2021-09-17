@@ -133,6 +133,7 @@ flex-wrap: wrap;
   display: flex;
   align-items: center;
   height: 80px;
+  justify-content: center;
 }
 .home main .img-descripcion .descripcion p{
   text-align: center;

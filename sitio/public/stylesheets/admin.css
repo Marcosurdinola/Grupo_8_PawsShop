@@ -1,0 +1,43 @@
+.admin .contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.admin .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 10px;
+}
+.admin .titulo h1{
+    font-size: 14px;
+}
+.admin .edit-add{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.admin .edit, .admin .add{
+    width: 45%;
+    background-color: var(--colorCeleste);
+    padding: 10px;
+    border: 2px solid var(--colorNaranja);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin .edit a, .admin .add a{
+    color: var(--colorNaranja);
+}
+
+@media (min-width: 768px) {
+    .admin .titulo h1{
+        font-size: 20px;
+    }
+    
+}

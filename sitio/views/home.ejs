@@ -69,114 +69,43 @@
             </div>
 
             <section>
-                <article>
-                    <div class="img-descripcion">
-                        <div class="img">
-                            <img src="/images/productoPerros.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p>Alimento Eukanuba para Perro Adulto Raza Mediana - 15 Kg</p>
-                        </div>
-                    </div>
-                    <div class="precio-btn">
-                        <div class="precio">
-                            <p>$ 5570,00</p>
-                        </div>
-                        <div class="btn-calculo">
-                            <div class="restar">
-                                <p>-</p>
+                <% products.forEach(product => { %>
+                    
+                        <article>
+                            <a href="/products/detail/<%= product.id %>">
+                            <div class="img-descripcion">
+                                <div class="img">
+                                    <img src="/images/<%= product.image %> " alt="">
+                                </div>
+                                <div class="descripcion">
+                                    <p><%= product.name %>-<%= product.features %></p>
+                                </div>
+                            </a>
                             </div>
-                            <div>
-                                <input type="text" class="contador" value="1">
+                            <div class="precio-btn">
+                                <div class="precio">
+                                    <p>$<%= product.price %></p>
+                                </div>
+                                <div class="btn-calculo">
+                                    <div class="restar">
+                                        <p>-</p>
+                                    </div>
+                                    <div>
+                                        <input type="text" class="contador" value="1">
+                                    </div>
+                                    <div class="sumar">
+                                        <p>+</p>
+                                    </div>
+                                </div>
+                                <div class="comprar"><a href="">Comprar</a>
+                                </div>
                             </div>
-                            <div class="sumar">
-                                <p>+</p>
-                            </div>
-                        </div>
-                        <div class="comprar"><a href="">Comprar</a>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="img-descripcion">
-                        <div class="img"><img src="/images/productoPerros2.png" alt=""></div>
-                        <div class="descripcion">
-                            <p>Alimento Eukanuba para Perro Adulto Raza Mediana - 15 Kg</p>
-                        </div>
-                    </div>
-                    <div class="precio-btn">
-                        <div class="precio">
-                            <p>$ 5570,00</p>
-                        </div>
-                        <div class="btn-calculo">
-                            <div class="restar">
-                                <p>-</p>
-                            </div>
-                            <div>
-                                <input type="text" class="contador" value="1">
-                            </div>
-                            <div class="sumar">
-                                <p>+</p>
-                            </div>
-                        </div>
-                        <div class="comprar"><a href="">Comprar</a>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="img-descripcion">
-                        <div class="img"><img src="/images/productoGatito.jpg" alt=""></div>
-                        <div class="descripcion">
-                            <p>Alimento Eukanuba para Perro Adulto Raza Mediana - 15 Kg</p>
-                        </div>
-                    </div>
-                    <div class="precio-btn">
-                        <div class="precio">
-                            <p>$ 5570,00</p>
-                        </div>
-                        <div class="btn-calculo">
-                            <div class="restar">
-                                <p>-</p>
-                            </div>
-                            <div>
-                                <input type="text" class="contador" value="1">
-                            </div>
-                            <div class="sumar">
-                                <p>+</p>
-                            </div>
-                        </div>
-                        <div class="comprar"><a href="">Comprar</a>
-                        </div>
-                    </div>
-                </article>
-                <article>
-                    <div class="img-descripcion">
-                        <div class="img"><img src="/images/sobrePolloPerro.jpg" alt=""></div>
-                        <div class="descripcion">
-                            <p>Alimento Eukanuba para Perro Adulto Raza Mediana - 15 Kg</p>
-                        </div>
-                    </div>
-                    <div class="precio-btn">
-                        <div class="precio">
-                            <p>$ 5570,00</p>
-                        </div>
-                        <div class="btn-calculo">
-                            <div class="restar">
-                                <p>-</p>
-                            </div>
-                            <div>
-                                <input type="text" class="contador" value="1">
-                            </div>
-                            <div class="sumar">
-                                <p>+</p>
-                            </div>
-                        </div>
-                        <div class="comprar"><a href="">Comprar</a>
-                        </div>
-                    </div>
-                </article>
+                        </article>
+                <% }) %> 
             </section>
-        </div>
+                
+                
+              
     </main>
 
     <%- include('partials/footer') %> 

@@ -4,10 +4,9 @@
 
     {
         "id": 1,  
-        "name": "Old Price", 
+        "name": "Old Price" , 
         "description": "Purina Pro Plan elimina la brecha inmunológica y provee nutrición completa que ayuda a los cachorros a crecer fuertes y sanos. A su vez, también ayuda a otras cosas claves en el cuidado de la mascota, tales como reforzar el sistema inmune, fortalecer la microflora intestinal y reforzar la barrera cutánea.",
         "price": 5570,
-        
         "discount": 20, 
         "category": "Alimento para perro", 
         "image": "productoPerros2.png",
@@ -16,10 +15,9 @@
     },
     {
         "id": 2,  
-        "name": "Whiskas Gatito", 
+        "name": "Whiskas Gatito" , 
         "description": "Whiskas Gatito (de 2 a 12 meses) Sabor CARNE Y LECHE. Receta rica en nutrientes de la leche para un crecimiento sano. Los trocitos con leche contienen proteínas y calcio para una sabrosa nutrición. Crecimiento Sano con todos los nutrientes necesarios para una alimentación 100% completa y balanceada. RICO EN CALCIO: proporciona crecimiento saludable. OPTIMA NUTRICIÓN: Con alta absorción de nutrientes. CROQUETAS MÁS PEQUEÑAS: ideales para esta etapa de vida.",
-        "price": 2.500,
-        
+        "price": 2500,
         "discount": 10, 
         "category": "Alimento para gato", 
         "image": "productoGatito.jpg",
@@ -29,10 +27,9 @@
 
     {
         "id": 3,  
-        "name": "Eukanuba Adult", 
+        "name": "Eukanuba Adult" , 
         "description": "Alimento balanceado completo para perros adultos de raza pequeña como Caniche, Yorkshire Terrier, y otras razas o perros mestizos que pesan menos de 10 kg. Recomendado para perros adultos mayores a 12 meses de edad. DISPONIBLE EN: 1kg / 3kg / 7.5kg / 15kg.",
-        "price": 3.000,
-                
+        "price": 3000,
         "discount": 10, 
         "category": "Alimento para perro", 
         "image": "productoPerros.jpg",
@@ -44,8 +41,7 @@
         "id": 4,  
         "name": "Pedigree Adulto Pollo en Salsa" , 
         "description": "Son suaves trocitos de pollo bañados en una deliciosa salsa con el sabor que les encanta y la nutrición completa que necesitan su mascota.",
-        "price": 55,
-                
+        "price": 500,
         "discount": 20, 
         "category": "Alimento para gato, en sobre", 
         "image": "sobrePolloPerro.jpg",

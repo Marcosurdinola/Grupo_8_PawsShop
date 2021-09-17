@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head', {tittle: 'Admin'}) %> 
+<body>
+    <%- include('partials/header') %> 
+
+
+    <main class="admin">
+        <div class="contenido">
+            <div class="titulo">
+                <h1>Bienvenido Administrador</h1>
+            </div>
+            <div class="edit-add">
+                <div class="edit">
+                    <a href="/products/productEdit">Editar Producto</a>
+                </div>
+                <div class="add">
+                    <a href="/products/productAdd">Crear producto</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <%- include('partials/footer') %> 
+</body>
+</html>
