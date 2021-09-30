@@ -16,7 +16,7 @@ module.exports = {
         })
     },
     update: (req, res) =>{
-        const {name,description,price,discount,category} = req.body;
+        const {name,description,price,discount,category, features} = req.body;
         let product = products.find(product => product.id === +req.params.id);
 
         let productModified = {
@@ -26,7 +26,8 @@ module.exports = {
             description: description,
             discount: discount,
             image: product.image,
-            category
+            category,
+            features: features
         }
         let productsModified = products.map(product => product.id === +req.params.id ? productModified : product);
     
@@ -36,7 +37,28 @@ module.exports = {
     },
 
     add: (req, res) =>{
-        return res.render('productAdd')
+        return res.render('productAdd',{
+            categories
+        })
+    },
+    store: (req, res) => {
+        const {name,description,price,discount,category, features} = req.body;
+
+        let product = {
+            id : products[products.length - 1].id + 1,
+            name : name.trim(),
+            price : +price,
+            description : description.trim(),
+            discount : +discount,
+            image : 'default.jpg',
+            category,
+            features
+        }
+        products.push(product);
+
+        fs.writeFileSync(path.join(__dirname,'..','data','products.json'),JSON.stringify(products,null,3),'utf-8');
+
+        return res.redirect('/admin')
     },
 
     destroy: (req, res) =>{
