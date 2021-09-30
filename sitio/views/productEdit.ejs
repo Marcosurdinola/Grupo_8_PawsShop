@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('partials/head', {tittle: 'Product Edit'}) %> 
+    <%- include('partials/head', {tittle: 'Editando Producto'}) %> 
 <body>
     <%- include('partials/header') %> 
 
     <main class="edit">
         <div class="contenido">
             <div class="edit-producto-name">
-                <h2>Editando producto: "Nombre del producto"</h2>
+                <h2>Editando producto: "<%= product.name %>"</h2>
             </div>
             <section>
-                <article>
-                    <label for="name" class="tittle">Nombre del producto: </label>
-                    <input type="text" id="name" name="name" placeholder="Nombre del producto">
-                </article>
-                <article>
-                    <label for="price" class="tittle">Precio del producto: </label>
-					<input type="text" id="price" name="price" placeholder="Precio del producto">
-                </article>
-                <article>
-                    <label for="discount" class="tittle">Descuento: </label>
-                    <input type="text" id="discount" name="discount" placeholder="Descuento">
-                </article>
-                <article>
-                    <label for="category" class="tittle">Categoría: </label>
-						<select name="category" id="category">
-							<option value="">Elegí</option>
-							<option value="">En oferta</option>
-							<option value="" >Últimos agregados</option>
-						</select>
-                </article>
-                <article>
-                    <label for="description"
-                    class="tittle">Descipción: </label>
-						<textarea name="description" id="description" placeholder="Descripción"></textarea>
-                </article>
-                <article class="button">
-                    <button>Guardar</button>
-                </article>
+                <form action="/products/productUpdate/<%= product.id %>?_method=PUT" method="POST">
+                    <article>
+                        <label for="name" class="tittle">Nombre del producto: </label>
+                        <input type="text" id="name" name="name" placeholder="Nombre del producto" value="<%= product.name %>">
+                    </article>
+                    <article>
+                        <label for="price" class="tittle">Precio del producto: </label>
+                        <input type="text" id="price" name="price" placeholder="Precio del producto" value="<%= product.price %>">
+                    </article>
+                    <article>
+                        <label for="discount" class="tittle">Descuento: </label>
+                        <input type="text" id="discount" name="discount" placeholder="Descuento" value="<%= product.discount %>">
+                    </article>
+                    <article>
+                        <label for="category" class="tittle">Categoría: </label>
+                            <select name="category" id="category">
+                                <option value="" selected hidden>Elegí categoría</option>
+                                <% categories.forEach(category => { %>
+                                    <option value="<%= category %>" <%= product.category === category ? 'selected' : null%> ><%= category %></option>
+                                   <% }) %>
+                            </select>
+                    </article>
+                    <article>
+                        <label for="description"
+                        class="tittle">Descipción: </label>
+                            <textarea name="description" id="description" placeholder="Descripción"><%= product.description %> </textarea>
+                    </article>
+                    <article class="button">
+                        <button>Guardar</button>
+                    </article>
+                </form>
+                
             </section>
         </div>
     </main>

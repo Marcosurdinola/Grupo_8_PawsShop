@@ -14,15 +14,68 @@
 .admin .titulo h1{
     font-size: 14px;
 }
+
+.admin .indice{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.admin .indice div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 13%;
+    border:  solid var(--colorCeleste);
+}
+.admin .indice .numero-id{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 8%;
+    border:  solid var(--colorCeleste);
+}
+.admin .indice .nombre-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 28%;
+    border:  solid var(--colorCeleste);
+}
+.admin .indice .precio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 8%;
+    border:  solid var(--colorCeleste);
+}
+
+.admin .indice .descuento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 8%;
+    border:  solid var(--colorCeleste);
+}
+
+.admin .card-body thead th{
+    border: 2px solid var(--colorCeleste);
+}
+
+
+.admin .indice p{
+    margin: 0;
+    padding: 5px;
+}
 .admin .edit-add{
     width: 100%;
     display: flex;
     margin-bottom: 15px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.admin .edit, .admin .add{
-    width: 45%;
+.admin .add{
+    width: 50%;
     background-color: var(--colorCeleste);
     padding: 10px;
     border: 2px solid var(--colorNaranja);

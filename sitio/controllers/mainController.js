@@ -15,6 +15,8 @@ module.exports = {
        })
     },
     admin: (req, res) =>{
-       return res.render('admin')
+       return res.render('admin',{
+         products : JSON.parse(fs.readFileSync(path.join(__dirname,'..','data','products.json'),'utf-8')),
+       })
     }
 }

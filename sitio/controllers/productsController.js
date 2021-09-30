@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-let  products = JSON.parse(fs.readFileSync(path.join(__dirname,'..','data','products.json'),'utf-8'));
+let products = JSON.parse(fs.readFileSync(path.join(__dirname,'..','data','products.json'),'utf-8'));
+let categories = JSON.parse(fs.readFileSync(path.join(__dirname,'..','data','categories.json'),'utf-8'));
 
 module.exports = {
     detail: (req, res) =>{
@@ -9,9 +10,36 @@ module.exports = {
         })
     },
     edit: (req, res) =>{
-        return res.render('productEdit')
+        return res.render('productEdit', {
+            product : products.find(product => product.id === +req.params.id),
+            categories
+        })
     },
+    update: (req, res) =>{
+        const {name,description,price,discount,category} = req.body;
+        let product = products.find(product => product.id === +req.params.id);
+
+        let productModified = {
+            id : +req.params.id,
+            name: name.trim(),
+            price: price,
+            description: description,
+            discount: discount,
+            image: product.image,
+            category
+        }
+        let productsModified = products.map(product => product.id === +req.params.id ? productModified : product);
+    
+            fs.writeFileSync(path.join(__dirname,'..','data','products.json'),JSON.stringify(productsModified,null,3),'utf-8');
+    
+            return res.redirect('/admin')
+    },
+
     add: (req, res) =>{
         return res.render('productAdd')
+    },
+
+    destroy: (req, res) =>{
+        
     }
 }

@@ -1,51 +1,38 @@
-
-
 [
-
-    {
-        "id": 1,  
-        "name": "Old Price" , 
-        "description": "Purina Pro Plan elimina la brecha inmunológica y provee nutrición completa que ayuda a los cachorros a crecer fuertes y sanos. A su vez, también ayuda a otras cosas claves en el cuidado de la mascota, tales como reforzar el sistema inmune, fortalecer la microflora intestinal y reforzar la barrera cutánea.",
-        "price": 5570,
-        "discount": 20, 
-        "category": "Alimento para perro", 
-        "image": "productoPerros2.png",
-        "features": " Peso 8 KG"
-      
-    },
-    {
-        "id": 2,  
-        "name": "Whiskas Gatito" , 
-        "description": "Whiskas Gatito (de 2 a 12 meses) Sabor CARNE Y LECHE. Receta rica en nutrientes de la leche para un crecimiento sano. Los trocitos con leche contienen proteínas y calcio para una sabrosa nutrición. Crecimiento Sano con todos los nutrientes necesarios para una alimentación 100% completa y balanceada. RICO EN CALCIO: proporciona crecimiento saludable. OPTIMA NUTRICIÓN: Con alta absorción de nutrientes. CROQUETAS MÁS PEQUEÑAS: ideales para esta etapa de vida.",
-        "price": 2500,
-        "discount": 10, 
-        "category": "Alimento para gato", 
-        "image": "productoGatito.jpg",
-        "features": "Peso 10 KG"  
-             
-     },
-
-    {
-        "id": 3,  
-        "name": "Eukanuba Adult" , 
-        "description": "Alimento balanceado completo para perros adultos de raza pequeña como Caniche, Yorkshire Terrier, y otras razas o perros mestizos que pesan menos de 10 kg. Recomendado para perros adultos mayores a 12 meses de edad. DISPONIBLE EN: 1kg / 3kg / 7.5kg / 15kg.",
-        "price": 3000,
-        "discount": 10, 
-        "category": "Alimento para perro", 
-        "image": "productoPerros.jpg",
-        "features": "Peso 15 KG" 
-              
-     },
-
-    {
-        "id": 4,  
-        "name": "Pedigree Adulto Pollo en Salsa" , 
-        "description": "Son suaves trocitos de pollo bañados en una deliciosa salsa con el sabor que les encanta y la nutrición completa que necesitan su mascota.",
-        "price": 500,
-        "discount": 20, 
-        "category": "Alimento para gato, en sobre", 
-        "image": "sobrePolloPerro.jpg",
-        "features": "100gr"  
-                     
-     }
-  ]
+   {
+      "id": 1,
+      "name": "Old Price",
+      "price": "5200",
+      "description": "Purina Pro Plan elimina la brecha inmunológica y provee nutrición completa que ayuda a los cachorros a crecer fuertes y sanos. A su vez, también ayuda a otras cosas claves en el cuidado de la mascota, tales como reforzar el sistema inmune, fortalecer la microflora intestinal y reforzar la barrera cutánea.          ",
+      "discount": "20",
+      "image": "productoPerros2.png",
+      "category": "Para Perros"
+   },
+   {
+      "id": 2,
+      "name": "Whiskas Gatito",
+      "price": "2500",
+      "description": "Whiskas Gatito (de 2 a 12 meses) Sabor CARNE Y LECHE. Receta rica en nutrientes de la leche para un crecimiento sano. Los trocitos con leche contienen proteínas y calcio para una sabrosa nutrición. Crecimiento Sano con todos los nutrientes necesarios para una alimentación 100% completa y balanceada. RICO EN CALCIO: proporciona crecimiento saludable. OPTIMA NUTRICIÓN: Con alta absorción de nutrientes. CROQUETAS MÁS PEQUEÑAS: ideales para esta etapa de vida. ",
+      "discount": "10",
+      "image": "productoGatito.jpg",
+      "category": "Para Gatos"
+   },
+   {
+      "id": 3,
+      "name": "Eukanuba Adult",
+      "price": "3000",
+      "description": "Alimento balanceado completo para perros adultos de raza pequeña como Caniche, Yorkshire Terrier, y otras razas o perros mestizos que pesan menos de 10 kg. Recomendado para perros adultos mayores a 12 meses de edad. DISPONIBLE EN: 1kg / 3kg / 7.5kg / 15kg. ",
+      "discount": "10",
+      "image": "productoPerros.jpg",
+      "category": "Para Perros"
+   },
+   {
+      "id": 4,
+      "name": "Pedigree Adulto Pollo en Salsa",
+      "price": "500",
+      "description": "Son suaves trocitos de pollo bañados en una deliciosa salsa con el sabor que les encanta y la nutrición completa que necesitan su mascota. ",
+      "discount": "20",
+      "image": "sobrePolloPerro.jpg",
+      "category": "Para Perros"
+   }
+]
