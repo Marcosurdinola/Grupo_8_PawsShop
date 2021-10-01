@@ -36,14 +36,5 @@
       "discount": "20",
       "image": "sobrePolloPerro.jpg",
       "category": "Para Perros"
-   },
-   {
-      "id": 5,
-      "name": "Pogis",
-      "price": 3000,
-      "description": "Alimento para roedores",
-      "discount": 10,
-      "image": "default.jpg",
-      "category": "Para roedores"
    }
 ]

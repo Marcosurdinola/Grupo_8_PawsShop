@@ -62,6 +62,10 @@ module.exports = {
     },
 
     destroy: (req, res) =>{
+        const newlist= products.filter(product=>product.id !== +req.params.id)
         
-    }
+            fs.writeFileSync(path.join(__dirname,'..','data','products.json'),JSON.stringify(newlist,null,3),'utf-8');
+    
+            return res.redirect('/admin')
+    },
 }
