@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "firstName": "Marcos",
+        "lastName": "Urdinola",
+        "email": "marcosurdinola@gmail.com",
+        "password": "123",
+        "gender": "masculino",
+        "rol": "admin",
+        "image": "marcosImg.png"
+    },
+
+    {
+         "id": 2,
+         "firstName": "Ary",
+         "lastName": "Chaves",
+         "email": "arychaves2@gmail.com",
+         "password": "123",
+         "gender": "femenino",
+         "rol": "user",
+         "image": "ariImg.png"
+        
+       
+       
+       },
+
+   
+    {
+        "id": 3,
+        "firstName": "Katerin",
+        "lastName": "Viluyo",
+        "email": "katerin.viluyo@gmail.com",
+        "password": "123",
+        "gender": "femenino",
+        "rol": "user",
+        "image": "katyImg.png"
+      
+      }
+ 
+]
