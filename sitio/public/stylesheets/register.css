@@ -81,6 +81,12 @@
     
 }
 
+.register main .box-form button{
+    background-color: var(--colorNaranja);
+color: aliceblue;
+border: none;
+    
+}
 
 @media(min-width:786px){
     .register main .home{
@@ -163,7 +169,7 @@
         align-items: center;
         border: solid 10px var(--colorNaranja);
         border-radius: 60px;
-        
+       
     }
     
 @media(min-width:1024){

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head', {tittle: 'Product Edit'}) %> 
+<body class="">
+   
+    <%- include('partials/header') %> 
+    <main class="add">
+        <div class="row">
+        <div class="contenido">
+            <div class="add-producto-name">
+                <h2>Mi perfil</h2>
+            </div>
+            <form class="" method="POST">
+            <section>
+
+    <div class="col-12 col-md-4">
+        <img class="img-fluid rounded-start" src="/images/ariImg.png "  alt="">
+    </div>
+
+            <!--action="/users/Update/= users.id ?_method=PUT"--->
+                
+                    <article>
+                        <label for="name" class="tittle">Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Nombre">
+                     <label for="price" class="tittle">fullname : </label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Apellido">
+                    
+                        <label for="pass">Fecha de nacimiento:</label>
+                        <option value="#FFFAFA"></option>
+                        <input type="password" placeholder="" id="pass">
+                        <option value="#FFFAFA"></option>
+
+                    </article>
+                    
+                    <article>
+                        <label for="email" class="tittle">email : </label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </article>
+                     <article class="image-button">
+                        <label for="image">Subir imagen</label>
+                        <input type="file" id="image" name="image" class="button-image">
+                    </article>
+<article>
+                       </article>  
+                       <!---
+                    <article>
+                        <label for="description"
+                        class="tittle">Intereses: </label>
+                            <textarea name="intereses" id="intereses" placeholder="intereses"> </textarea>
+                    </article>-->
+                       <article>
+                    </article>  
+                       
+                    <article>   
+                    <input type="password" class="form-control" id="password" placeholder="Contraseña" name="password" >
+                    <label for="email">Cambiar contraseña</label>
+                  </article>
+                  <article>
+                    <input type="password1" class="form-control" id="password1" placeholder="ingresar nuevamente" name="password1" >
+                    <label for="email">Confirmar contraseña</label>
+                  </article>
+                    
+                   
+                    <article class="button">
+                        <button>Guardar</button>
+                    </article>
+               
+                
+            </section> 
+        </form>
+        </div>
+    </div>
+    </main>
+    <%- include('partials/footer') %> 
+
+        
+    </body>
+</html>
