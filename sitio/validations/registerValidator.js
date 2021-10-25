@@ -31,7 +31,7 @@ check('email')
     // evaluar contraseñas
   body('password2')
       .custom((value,{req}) => {
-        if(value !== req.body.password){
+        if(value !== req.body.password2){
              return false
           }else{
                 return true

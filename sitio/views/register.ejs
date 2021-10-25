@@ -23,7 +23,7 @@
                         </div>
         
                 
-            <form action="" method="POST">     
+            <form action="/users/register" method="POST">     
                     <div class="datos">
                         
                           <label for="pass">Nombre:</label>
@@ -38,7 +38,7 @@
                             <option value="#FFFAFA"></option>
 
                         <label for="pass">Correo electronico:</label>
-                            <input type="email" placeholder="" id="pass" name="email">
+                            <input type="email" placeholder="" id="pass" name="email"  value="<%= locals.old && old.email ? old.email : null %>">
                             <span class="error"><%= locals.errores && errores.email ? errores.email.msg : null %> </span>
                             <option value="#FFFAFA"></option>
 
@@ -69,21 +69,21 @@
                                 </div>
                                 <span class="error"><%= locals.errores && errores.terms ? errores.terms.msg : null %> </span>
                             </div>
-                        </div>
-            </form>  
-               
-            </div>
-           
-            <div class="box-form">
-                    <button type="submit">REGISTRARME</button>
-                    
+                        </div> 
+                            <div class="box-form">
+                    <button type="submit">REGISTRARME</button>                   
             </div>
             
             <div class="box-form">
                    
-                    <button type="reset">CANCELAR REGISTRO</button>
+            <button type="reset">CANCELAR REGISTRO</button>
             </div>
  
+            </form>  
+               
+            </div>
+           
+       
             
         </div>
    </div>

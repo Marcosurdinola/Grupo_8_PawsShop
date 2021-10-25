@@ -1,1 +1,20 @@
-[]
+[
+   {
+      "id": 1,
+      "name": "Katy",
+      "fullname": "viluyo",
+      "email": "katerin.viluyo@gmail.com",
+      "password": "$2a$10$zUGf/iBSqDFDpmTWRtUo1.moQsReS5GiuOLb45aTKoEA.RJ0BoIMi",
+      "avatar": "logo.jpg",
+      "rol": "user"
+   },
+   {
+      "id": 2,
+      "name": "roberto",
+      "fullname": "hjhj",
+      "email": "hjhhg@gmail.com",
+      "password": "$2a$10$R4oE3EAvdV6GIjUb6Xkyyemts6FF9PNxRHE/BV1IwYu2gt6W/fuzm",
+      "avatar": "logo.jpg",
+      "rol": "user"
+   }
+]
