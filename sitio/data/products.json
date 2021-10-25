@@ -6,16 +6,18 @@
       "description": "Purina Pro Plan elimina la brecha inmunológica y provee nutrición completa que ayuda a los cachorros a crecer fuertes y sanos. A su vez, también ayuda a otras cosas claves en el cuidado de la mascota, tales como reforzar el sistema inmune, fortalecer la microflora intestinal y reforzar la barrera cutánea.          ",
       "discount": "20",
       "image": "productoPerros2.png",
-      "category": "Para Perros"
+      "category": "Para Perros",
+      "features": "10 KG"
    },
    {
       "id": 2,
       "name": "Whiskas Gatito",
       "price": "2500",
-      "description": "Whiskas Gatito (de 2 a 12 meses) Sabor CARNE Y LECHE. Receta rica en nutrientes de la leche para un crecimiento sano. Los trocitos con leche contienen proteínas y calcio para una sabrosa nutrición. Crecimiento Sano con todos los nutrientes necesarios para una alimentación 100% completa y balanceada. RICO EN CALCIO: proporciona crecimiento saludable. OPTIMA NUTRICIÓN: Con alta absorción de nutrientes. CROQUETAS MÁS PEQUEÑAS: ideales para esta etapa de vida. ",
+      "description": "Whiskas Gatito (de 2 a 12 meses) Sabor CARNE Y LECHE. Receta rica en nutrientes de la leche para un crecimiento sano. Los trocitos con leche contienen proteínas y calcio para una sabrosa nutrición. Crecimiento Sano con todos los nutrientes necesarios para una alimentación 100% completa y balanceada. RICO EN CALCIO: proporciona crecimiento saludable. OPTIMA NUTRICIÓN: Con alta absorción de nutrientes. CROQUETAS MÁS PEQUEÑAS: ideales para esta etapa de vida.  ",
       "discount": "10",
       "image": "productoGatito.jpg",
-      "category": "Para Gatos"
+      "category": "Para Gatos",
+      "features": "12 KG"
    },
    {
       "id": 3,

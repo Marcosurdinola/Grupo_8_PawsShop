@@ -8,6 +8,9 @@
 }
 .edit .contenido .edit-producto-name{
     margin-top: 6px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
 .edit .contenido h2{
     font-size: 14px;
@@ -28,10 +31,13 @@
 }
 
 .edit .contenido  article{
-    display: flex;
+     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 5px 0;
+   margin: 5px 0;
+}
+.edit .contenido  article.button{
+    margin: 10px auto
 }
 .edit .contenido input{
     border: 2px solid var(--colorCeleste);
