@@ -67,7 +67,7 @@ font-size: 12px;
     list-style: none;
     background-color: #EC8F6A; 
     color: honeydew;
-    padding: 6px;
+    padding: 5px 30px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -247,7 +247,9 @@ padding: 2px 0;
      }
     
     .login main .boton{
-        
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
         text-decoration: none;
         list-style: none;
         background-color: #EC8F6A; 
@@ -262,7 +264,6 @@ padding: 2px 0;
         font-size: 25px;
     }
     .login main .botonIngresar{
-        
         background-color: #FFFAFA;
         border: solid 2.5px #a8d3d3;
         color: #EC8F6A;
