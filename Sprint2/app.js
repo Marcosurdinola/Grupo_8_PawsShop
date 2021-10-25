@@ -12,4 +12,5 @@ app.get('/register', (req, res) => res.sendFile(path.join(__dirname, 'views', 'r
 app.get('/carrito', (req, res) => res.sendFile(path.join(__dirname, 'views', 'carrito.html')))
 app.get('/detalleProducto', (req, res) => res.sendFile(path.join(__dirname, 'views', 'detalleProducto.html')))
 
+
 app.listen(port, () => console.log(`Servidor corriendo en http://localhost:${port}`))

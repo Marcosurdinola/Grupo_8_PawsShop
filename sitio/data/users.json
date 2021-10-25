@@ -1,40 +1,29 @@
 [
-    {
-        "id": 1,
-        "firstName": "Marcos",
-        "lastName": "Urdinola",
-        "email": "marcosurdinola@gmail.com",
-        "password": "123",
-        "gender": "masculino",
-        "rol": "admin",
-        "image": "marcosImg.png"
-    },
-
-    {
-         "id": 2,
-         "firstName": "Ary",
-         "lastName": "Chaves",
-         "email": "arychaves2@gmail.com",
-         "password": "123",
-         "gender": "femenino",
-         "rol": "user",
-         "image": "ariImg.png"
-        
-       
-       
-       },
-
-   
-    {
-        "id": 3,
-        "firstName": "Katerin",
-        "lastName": "Viluyo",
-        "email": "katerin.viluyo@gmail.com",
-        "password": "123",
-        "gender": "femenino",
-        "rol": "user",
-        "image": "katyImg.png"
-      
-      }
- 
+   {
+      "id": 1,
+      "name": "Katy",
+      "fullname": "viluyo",
+      "email": "katerin.viluyo@gmail.com",
+      "password": "$2a$10$zUGf/iBSqDFDpmTWRtUo1.moQsReS5GiuOLb45aTKoEA.RJ0BoIMi",
+      "avatar": "logo.jpg",
+      "rol": "user"
+   },
+   {
+      "id": 2,
+      "name": "roberto",
+      "fullname": "hjhj",
+      "email": "hjhhg@gmail.com",
+      "password": "$2a$10$R4oE3EAvdV6GIjUb6Xkyyemts6FF9PNxRHE/BV1IwYu2gt6W/fuzm",
+      "avatar": "logo.jpg",
+      "rol": "user"
+   },
+   {
+      "id": 3,
+      "name": "Marcos",
+      "fullname": "Urdinola",
+      "email": "marcosurdinola@gmail.com",
+      "password": "$2a$10$XjKk2VDpdsLpzXAmAx4h9OWy05.hV0vZs7sPR3DUjUScYxmeypndS",
+      "avatar": "logo.jpg",
+      "rol": "user"
+   }
 ]
